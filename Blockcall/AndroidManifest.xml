@@ -47,14 +47,6 @@
             
         </activity>
         
-         
-        
-        
-        
-        
-        
-        
-        
         
 	<receiver android:name="receive">
 		<intent-filter>
