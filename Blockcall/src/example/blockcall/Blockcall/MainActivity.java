@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
 	{
 		Intent callIntent = new Intent(Intent.ACTION_CALL);
         //   callIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        callIntent.setData(Uri.parse("tel:8447056481"));
+        callIntent.setData(Uri.parse("tel:XXXXXXXXXX"));
         startActivity(callIntent);
 	}
 	public void end(View aview) 
@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
 		//rec.call(Context context));
 		 //broadcastMsg();
 		Intent intent = new Intent();
-	      intent.setAction("com.tutorialspoint.CUSTOM_INTENT");
+	      intent.setAction("com.test.CUSTOM_INTENT");
 	      sendBroadcast(intent);
 	
 	

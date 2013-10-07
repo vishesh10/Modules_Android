@@ -58,7 +58,7 @@
         
 	<receiver android:name="receive">
 		<intent-filter>
-			<action android:name="com.tutorialspoint.CUSTOM_INTENT"/>
+			<action android:name="com.test.CUSTOM_INTENT"/>
 			 <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
 			<action android:name="android.intent.action.PHONE_STATE"/>
 		</intent-filter>

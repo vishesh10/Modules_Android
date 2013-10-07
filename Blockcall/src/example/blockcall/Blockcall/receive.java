@@ -30,7 +30,7 @@ public class receive extends BroadcastReceiver {
 			return;
 */
 		
-		 if(intent.getAction().equals("com.tutorialspoint.CUSTOM_INTENT")){
+		 if(intent.getAction().equals("com.test.CUSTOM_INTENT")){
 		    Toast.makeText(context, "sample", Toast.LENGTH_LONG).show();
 		 		 
 		
